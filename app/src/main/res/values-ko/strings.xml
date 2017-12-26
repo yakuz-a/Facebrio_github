@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Messenger</string>
+
+    <string-array name="intervalPrefTitles">
+        <item>1분</item>
+        <item>2분</item>
+        <item>5분</item>
+        <item>15분</item>
+        <item>30분</item>
+        <item>1시간</item>
+        <item>3시간</item>
+        <item>6시간</item>
+    </string-array>
+
+    <string name="image_chooser">이미지 선택기</string>
+    <string name="author">by Krzysztof \'Koras\' Grabowski</string>
+    <string name="applying_changes">변경 사항 적용 중</string>
+    <string name="title_activity_settings">설정</string>
+    <string name="title_activity_about">개발자에 대해서</string>
+    <string name="preference_category1">인터페이스</string>
+    <string name="preference_category2">고급 설정</string>
+    <string name="progress_bar">진행 표시줄</string>
+    <string name="clear_cache">캐시 지우기</string>
+    <string name="clear_cache_description">앱 캐시를 지웁니다. 로그아웃됩니다.</string>
+    <string name="email_author">개발자 연락처</string>
+    <string name="choose_email_client">이메일 앱 선택</string>
+    <string name="notifications">알림</string>
+    <string name="no_network">오프라인 상태입니다 </string>
+    <string name="hardware_acceleration">하드웨어 가속 &#8635;</string>
+    <string name="hardware_acceleration_description">메모리가 적은 기기에서만 해제하세요.</string>
+    <string name="share_link">링크 공유</string>
+    <string name="long_clicks">길게 누르기</string>
+    <string name="me_google_play">Google Play</string>
+    <string name="long_clicks_description">이미지 또는 링크를 공유하기 위해 길게 누르기를 사용합니다.</string>
+    <string name="dark_theme">어두운 테마</string>
+    <string name="dark_theme_description">페이스북을 검은색으로 만듭니다. CSS에 대해서 잘 아십니까? 기능 개선을 도와주세요!\u0020 -\u0020 res/raw/black.css</string>
+    <string name="fixed_nav">고정된 파란색 바</string>
+    <string name="fixed_nav_description">페이스북 탐색 바를 항상 위에 표시합니다.</string>
+    <string name="preference_category4">기타</string>
+    <string name="quick_guide">빠른 시작 안내</string>
+    <string name="messages">메세지</string>
+    <string name="donate_paypal">기부하기 \u0020 –\u0020 PayPal</string>
+    <string name="donate_google">기부하기 \u0020 –\u0020 Google</string>
+    <string name="preference_category5">알림</string>
+    <string name="interval_pref">체크 시간 간격</string>
+    <string name="notifications_settings">알림 설정</string>
+    <string name="notifications_settings_description">추가적인 설정입니다. 시간 간격과 소리, LED, 진동을 선택하세요.</string>
+    <string name="notification_sound">알림 소리</string>
+    <string name="notification_sound_description">소리 또는 무음 옵션을 선택하세요: \u0020</string>
+    <string name="silent">무음</string>
+    <string name="vibrate">진동</string>
+    <string name="led_light">LED</string>
+    <string name="notifications_extra">추가 설정</string>
+    <string name="notifications_everywhere">항상 알림</string>
+    <string name="notifications_everywhere_description">앱의 메인 화면상에 있을때도 알림</string>
+    <string name="setup_notifications">알림을 설정하기 위해 앱 설정으로</string>
+    <string name="no_images">이미지 표시하지 않음 &#8635;</string>
+    <string name="no_images_description">이미지를 표시하지 않습니다. 데이터 사용량을 많이 줄일 수 있습니다.</string>
+    <string name="paypal_url" formatted="false">https://www.paypal.com/cgi-bin/webscr?cmd=_donations&amp;business=koras%2eevil%40gmail%2ecom&amp;lc=GB&amp;item_name=Krzysztof%20Grabowski&amp;currency_code=USD&amp;bn=PP%2dDonationsBF%3abtn_donateCC_LG%2egif%3aNonHosted</string>
+
+</resources>

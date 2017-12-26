@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="Facebook">
+        <menu>
+            <item
+                android:id="@+id/nav_newsFeed"
+                android:icon="@drawable/ic_view_carousel"
+                android:title="News Feed"/>
+            <item
+                android:id="@+id/nav_profile"
+                android:icon="@drawable/ic_account_circle"
+                android:title="Profile"/>
+            <item
+                android:id="@+id/nav_onlineFriends"
+                android:icon="@drawable/ic_radio_button_checked"
+                android:title="Online Friends"/>
+            <item
+                android:id="@+id/nav_message"
+                android:icon="@drawable/ic_chat"
+                android:title="Messages"/>
+            <item
+                android:id="@+id/nav_fbSettings"
+                android:icon="@drawable/ic_settings_applications"
+                android:title="Facebook Settings"/>
+        </menu>
+    </item>
+    <item android:title="Actions">
+        <menu>
+            <item
+                android:id="@+id/nav_pages"
+                android:icon="@drawable/ic_flag"
+                android:title="Pages"/>
+            <item
+                android:id="@+id/nav_findFriends"
+                android:icon="@drawable/ic_group_add"
+                android:title="Find Friends"/>
+            <item
+                android:id="@+id/nav_pokes"
+                android:icon="@drawable/ic_touch_app"
+                android:title="Pokes"/>
+            <item
+                android:id="@+id/nav_groups"
+                android:icon="@drawable/ic_group_work"
+                android:title="Groups"/>
+
+        </menu>
+    </item>
+    <item android:title="Reminds">
+        <menu>
+            <item
+                android:id="@+id/nav_day"
+                android:icon="@drawable/ic_event_note"
+                android:title="On This Day"/>
+            <item
+                android:id="@+id/nav_events"
+                android:icon="@drawable/ic_event"
+                android:title="Events"/>
+            <item
+                android:id="@+id/nav_saved"
+                android:icon="@drawable/ic_bookmark_border"
+                android:title="Saved"/>
+        </menu>
+    </item>
+    <item android:title="Messenger">
+        <menu>
+            <item
+                android:id="@+id/nav_translate"
+                android:icon="@drawable/ic_translate"
+                android:title="Help to Translate"/>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_share"
+                android:title="Share"/>
+            <item
+                android:id="@+id/nav_preferences"
+                android:icon="@drawable/ic_settings"
+                android:title="Preferences"/>
+            <item
+                android:id="@+id/nav_about"
+                android:icon="@drawable/ic_info"
+                android:title="About"/>
+        </menu>
+    </item>
+
+</menu>

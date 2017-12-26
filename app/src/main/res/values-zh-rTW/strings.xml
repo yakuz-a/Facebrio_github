@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:ignore="MissingTranslation">
+
+    <!-- Strings to translate during creation of a new translation -->
+    <string name="app_name">Messenger</string>
+    <string name="image_chooser">圖片選擇器</string>
+    <string name="applying_changes">正在套用變更…</string>
+
+    <string name="author">by Krzysztof \'Koras\' Grabowski</string>
+    <string name="title_activity_settings">設定</string>
+    <string name="title_activity_about">關於開發人員</string>
+    <string name="preference_category1">介面</string>
+    <string name="preference_category2">進階設定</string>
+    <string name="progress_bar">進度條</string>
+    <string name="clear_cache">清除快取</string>
+    <string name="clear_cache_description">清除程式的快取資料. 同時將您登出FB.</string>
+    <string name="email_author">連絡我</string>
+    <string name="choose_email_client">選擇 e-mail 程式</string>
+    <string name="notifications">通知</string>
+    <string name="no_network">離線中 ;)</string>
+    <string name="hardware_acceleration">硬體加速 &#8635;</string>
+    <string name="hardware_acceleration_description">只需要在低RAM裝置關閉. 可能導致影片無法播放.</string>
+    <string name="share_link">分享連結</string>
+    <string name="long_clicks">長按</string>
+    <string name="long_clicks_description">在連結或圖片上長按以分享.</string>
+    <string name="me_google_play">Google Play</string>
+    <string name="dark_theme">黑化主題</string>
+    <string name="dark_theme_description">把Facebook黑化.</string>
+    <string name="fixed_nav">導航選單置頂</string>
+    <string name="fixed_nav_description">將Facebook的選單維持在螢幕上方.</string>
+    <string name="load_extra">載入外部圖片</string>
+    <string name="load_extra_description">直接在本程式打開外部連結的圖片. 目前只支援部分網站.</string>
+    <string name="preference_category4">更多</string>
+    <string name="quick_guide">快速導覽</string>
+    <string name="messages">訊息</string>
+    <string name="donate_paypal">PayPal\u0020 –\u0020 贊助</string>
+    <string name="donate_google">Google\u0020 –\u0020 贊助</string>
+    <string name="paypal_url" formatted="false">https://www.paypal.com/cgi-bin/webscr?cmd=_donations&amp;business=koras%2eevil%40gmail%2ecom&amp;lc=GB&amp;item_name=Krzysztof%20Grabowski&amp;currency_code=USD&amp;bn=PP%2dDonationsBF%3abtn_donateCC_LG%2egif%3aNonHosted</string>
+
+    <string name="preference_category5">通知</string>
+    <string name="interval_pref">檢查通知之時間間隔</string>
+    <string name="notifications_settings">通知設定</string>
+    <string name="notifications_settings_description">選擇檢查通知的時間間隔, 設定通知鈴聲, LED和震動.</string>
+
+    <string-array name="intervalPrefTitles">
+        <item>1分鐘</item>
+        <item>2分鐘</item>
+        <item>5分鐘</item>
+        <item>15分鐘</item>
+        <item>30分鐘</item>
+        <item>1小時</item>
+        <item>3小時</item>
+        <item>6小時</item>
+    </string-array>
+
+    <string name="notification_sound">通知音效</string>
+    <string name="notification_sound_description">選擇鈴聲或是將鈴聲靜音: \u0020</string>
+    <string name="silent">靜音</string>
+    <string name="vibrate">震動</string>
+    <string name="led_light">LED</string>
+    <string name="notifications_extra">更多</string>
+    <string name="notifications_everywhere">總是啟用通知</string>
+    <string name="notifications_everywhere_description">在使用本程式時也接收通知.</string>
+    <string name="setup_notifications">請於程式設定內設定通知功能</string>
+    <string name="no_images">停用圖片顯示 &#8635;</string>
+    <string name="no_images_description">不載入任何圖片. 可有效節省流量.</string>
+    <string name="no_storage_permission">允許儲存權限以使用本功能</string>
+    <string name="basic_mode">基本模式</string>
+    <string name="basic_mode_description">使用基本版的Facebook. 須先關閉黑化主題. 可能不適用於快速連線.</string>
+    <string name="preference_category6">動態消息</string>
+    <string name="hide_sponsored">隱藏贊助貼文</string>
+    <string name="hide_sponsored_description">我們和您一樣討厭贊助貼文和廣告. :p</string>
+    <string name="hide_people">隱藏"你可能認識的朋友"</string>
+    <string name="hide_people_description">還您更乾淨的動態.更多的空間.</string>
+    <string name="hide_news_feed">隱藏動態訊息</string>
+    <string name="hide_news_feed_description">[…] 避免側錄以及節省您的寶貴時間.</string>
+	<string name="message_notifications">訊息通知</string>
+    <string name="you_have_one_message">您有一則新訊息.</string>
+    <string name="you_have_n_messages">您有 %d 則新訊息.</string>
+    <string name="special_thanks_notifications">特別感謝加入通知功能:</string>
+    <string name="sync_problem">Cookies無法同步. 請重新啟動程式 :)</string>
+    <string name="interval_pref_description_new">通知將每隔 %s 檢查一次.</string>
+    <string name="facebook_notifications">Facebook通知</string>
+    <string name="notification_sound_msg">訊息提示音</string>
+    <string name="crash_toast_text">Messenger: 程式出錯. 正在準備錯誤報告…</string>
+    <string name="crash_dialog_title">Messenger 出錯了 :(</string>
+    <string name="crash_dialog_text">一個無法預期的錯誤導致程式必須關閉. 請傳送錯誤報告以協助我修復這個問題. 請按下確認並寄出回報e-mail給我, 謝謝.</string>
+    <string name="crash_dialog_comment_prompt">請描述問題發生時的狀態等資料(選填):</string>
+    <string name="file_logger">儲存紀錄至檔案</string>
+    <string name="file_logger_description">儲存通知服務紀錄檔至外部空間, 需要儲存權限.</string>
+    <string name="file_logger_needs_permission">無法存取外部空間. 無法儲存紀錄檔</string>
+    <string name="save_img">儲存圖片</string>
+    <string name="downloading_img">正在下載圖片&#8230;</string>
+    <string name="download_manager_disabled">下載管理員已被停用, 請至設定重新啟用.</string>
+    <string name="cannot_access_storage">無法存取外部儲存空間</string>
+    <string name="file_cannot_be_saved">無法儲存檔案</string>
+    <string name="camera_exception">無法連接相機</string>
+    <string name="offline_mode">離線模式</string>
+    <string name="offline_mode_enable">啟用離線模式</string>
+    <string name="offline_mode_description">當您沒有網路連線時嘗試顯示快取和離線資料庫中的頁面.</string>
+    <string name="not_found_offline" formatted="false"><![CDATA[<div style=\"position: absolute;top: 50%;left: 50%;transform: translateX(-50%) translateY(-50%);\"><div><h1>很抱歉這個頁面尚未被保存於離線快取</h1><h1>提示: 回到上個頁面請按兩下返回鍵</h1></div></div>]]></string>
+    <string name="loading_offline_database">正在從離線資料庫讀取網頁</string>
+    <string name="offline_keep_max">要保留的離線頁面數量</string>
+    <string name="offline_keep_max_description">當您瀏覽網頁時本程式將異步將頁面儲存至離線快取. 預設會儲存最後瀏覽的10個頁面.</string>
+    <string name="offline_dummy_description">目前頁面的原始碼將被異步儲存至快取, 如果有重複的頁面將會直接取代快取中舊的頁面. 下拉重新整理可以強制更新頁面. 但請注意離線快取尚不支援動態載入的內容.</string>
+    <string name="keyboard_fix">修復鍵盤覆蓋頁面 &#8635;</string>
+    <string name="offline_database_empty">離線資料庫目前沒有資料</string>
+    <string name="no_location_permission">允許本程式獲得儲存空間權限以使用這項功能</string>
+    <string name="location_access">啟用定位功能</string>
+    <string name="custom_user_agent">自訂User Agent &#8635;</string>
+    <string name="custom_user_agent_description">使用您自訂的User Agent字串.</string>
+    <string name="custom_user_agent_hint">留空以使用預設值</string>
+    <string name="touch_mode">Touch版Facebook</string>
+    <string name="touch_mode_description">使用touch.facebook.com 而不是預設的行動版.</string>
+    <string name="new_version_detected">偵測到本程式有可用更新</string>
+    <string name="font_size">文字大小</string>
+    <string name="font_size_description">變更文字大小 (百分比).</string>
+    <string name="font_size_hint">100 = 100%</string>
+    <string name="most_recent">優先顯示最新動態</string>
+    <string name="most_recent_description">您可能也需要從Facebook選單設定以套用這項設定.</string>
+    <string name="really_quit_question">真的要說掰掰了?</string>
+    <string name="confirm_exit">確認離開本程式?</string>
+    <string name="yes">嗯…</string>
+    <string name="no">不要啊啊~</string>
+
+</resources>

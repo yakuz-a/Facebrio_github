@@ -1,0 +1,63 @@
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory
+        android:title="@string/notifications_settings">
+
+        <ListPreference
+            android:title="@string/interval_pref"
+            android:summary="@string/interval_pref_description_new"
+            android:key="interval_pref"
+            android:entries="@array/intervalPrefTitles"
+            android:entryValues="@array/intervalPrefValues"
+            android:defaultValue="60000"
+            android:icon="@drawable/ic_timelapse_white_36dp"/>
+
+        <RingtonePreference
+            android:key="ringtone"
+            android:ringtoneType="notification"
+            android:showDefault="true"
+            android:showSilent="true"
+            android:defaultValue="content://settings/system/notification_sound"
+            android:title="@string/notification_sound"
+            android:summary="@string/notification_sound_description"
+            android:icon="@drawable/ic_surround_sound_white_36dp"/>
+
+        <RingtonePreference
+            android:key="ringtone_msg"
+            android:ringtoneType="notification"
+            android:showDefault="true"
+            android:showSilent="true"
+            android:defaultValue="content://settings/system/notification_sound"
+            android:title="@string/notification_sound_msg"
+            android:summary="@string/notification_sound_description"
+            android:icon="@drawable/ic_soundcloud_white_36dp"/>
+
+        <CheckBoxPreference
+            android:key="vibrate"
+            android:title="@string/vibrate"
+            android:defaultValue="false"
+            android:icon="@drawable/ic_blur_white_36dp"/>
+
+        <CheckBoxPreference
+            android:key="led_light"
+            android:title="@string/led_light"
+            android:defaultValue="false"
+            android:icon="@drawable/ic_lightbulb_on_white_36dp"/>
+
+    </PreferenceCategory>
+
+
+    <PreferenceCategory
+        android:title="@string/notifications_extra">
+
+        <CheckBoxPreference
+            android:key="notifications_everywhere"
+            android:title="@string/notifications_everywhere"
+            android:summary="@string/notifications_everywhere_description"
+            android:defaultValue="true"
+            android:icon="@drawable/ic_alarm_multiple_white_36dp"/>
+
+    </PreferenceCategory>
+
+</PreferenceScreen>
